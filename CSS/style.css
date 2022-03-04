@@ -72,11 +72,23 @@ input[type = text], select{
 
 input[type = submit]{
     margin-top: 0.4rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
     width: 30%;
     padding: 0.35rem;
     color: #eeeeee;
     background-color: #5294E2;
     border: none;
     border-radius: 0.15rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#Form form .mf {
+    font-size: 1.6rem;
+}
+
+i{
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: #eeeeee;
 }
