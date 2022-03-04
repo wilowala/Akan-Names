@@ -50,6 +50,17 @@ span{
     padding: 1.25rem;
 }
 
+#Form h2{
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+#Form h5{
+    color: #353841;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
 #Form form{
     padding: 1rem 0;
 }
