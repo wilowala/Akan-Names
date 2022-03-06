@@ -41,7 +41,7 @@
 
                         <i class="fab fa-500px"></i>
 
-                        <input type="text" name="" id="" placeholder="Enter your Day of birth e.g 31">
+                        <input type="date" name="" id="date" placeholder="Enter your D.O.B e.g 03" required />
 
                     </div>
 
@@ -49,7 +49,7 @@
 
                         <i class="fas fa-calendar-alt"></i>
 
-                        <input type="text" name="" id="" placeholder="Enter your Month of birth e.g 12">
+                        <input type="text" name="" id="Month" placeholder="Enter your M.O.B e.g 12" required />
 
                     </div>
 
@@ -57,7 +57,7 @@
 
                         <i class="fas fa-calendar"></i>
 
-                        <input type="text" name="" id="" placeholder="Enter your Year of birth e.g 2022">
+                        <input type="text" name="" id="Year" placeholder="Enter your Y.O.B e.g 2022" required />
 
                     </div>
 
@@ -65,23 +65,26 @@
 
                         <i class="fas fa-venus-mars mf"></i>
 
-                        <select name="gender" id="gender">
+                        <select name="gender" id="gender" required >
 
-                            <option value="gender">Select gender</option>
-                            <option value="male">Male</option>
-                            <option value="Female">Female</option>
+                            <optgroup label="select gender">
+
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </optgroup>
 
                         </select>
 
                     </div>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" id="submit">
 
                 </form>
 
                 <div id="output">
 
-                    <h2>Your Akan Name is: <span>'Kwabena'</span></h2>
+                    <h2>Your Akan Name is: <span class="output"></span></h2>
 
                 </div>
 
