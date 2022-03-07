@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <div class="container" id="main">
+    <div class="container-fluid" id="main">
 
         <div class="row" id="card">
 
@@ -41,7 +41,7 @@
 
                         <i class="fab fa-500px"></i>
 
-                        <input type="date" name="" id="date" placeholder="Enter your D.O.B e.g 03" required />
+                        <input type="text" name="" id="date" placeholder="Enter your D.O.B e.g 03" required />
 
                     </div>
 
@@ -65,14 +65,11 @@
 
                         <i class="fas fa-venus-mars mf"></i>
 
-                        <select name="gender" id="gender" required >
+                        <select name="gender" id="gender" required>
 
-                            <optgroup label="select gender">
-
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-
-                            </optgroup>
+                            <option value="select gender" selected disabled>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
 
                         </select>
 
