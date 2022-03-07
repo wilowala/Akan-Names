@@ -70,15 +70,18 @@ input[type = text], select{
     margin: 0.4rem 0;
     border: none;
     border-radius: 0.15rem;
-    padding: 0.35rem;
+    padding: 0.5rem;
     color: #eeeeee;
     background-color: #4B5162;
     outline: none;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 ::-webkit-input-placeholder{
     color: #eeeeee;
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 input[type = submit]{
