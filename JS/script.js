@@ -77,15 +77,14 @@ function getAkanName() {
     let requiredDay = namingDay.toString();
     let dayName = new Date(requiredDay);
     const day = dayName.getDay();
-
-     
-        if (gender.value === "female") {
-            assignName.innerHTML = `${akanFemaleNames[day]}`;
-        }
-        if (gender.value === "male") {
-            assignName.innerHTML = `${akanMaleNames[day]}`;
-        }
-        console.log(gender.value);
+ 
+    if (gender.value === "female") {
+        assignName.innerHTML = `${akanFemaleNames[day]}`;
+    }
+    if (gender.value === "male") {
+        assignName.innerHTML = `${akanMaleNames[day]}`;
+    }
+    console.log(gender.value);
     
 }
 
